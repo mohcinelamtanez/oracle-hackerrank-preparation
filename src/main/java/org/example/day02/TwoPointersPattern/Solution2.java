@@ -6,16 +6,14 @@ package org.example.day02.TwoPointersPattern;
  **/
 public class Solution2 {
 
-    public static Boolean isValidPalindrome(String s) {
+    public static boolean isValidPalindrome(String s) {
         int left = 0;
         int right = s.length() - 1;
 
         while (left < right) {
 
-            char leftElem = s.charAt(left);
-            char rightElem = s.charAt(right);
 
-            if (leftElem != rightElem) {
+            if (s.charAt(left)!= s.charAt(right)) {
                 return false ;
             }
 
