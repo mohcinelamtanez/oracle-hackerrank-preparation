@@ -4,7 +4,7 @@ package org.example.day02.TwoPointersPattern;
 /**
  * @author USER
  **/
-public class Solution2 {
+public class ValidPalindrome {
 
     public static boolean isValidPalindrome(String s) {
         int left = 0;

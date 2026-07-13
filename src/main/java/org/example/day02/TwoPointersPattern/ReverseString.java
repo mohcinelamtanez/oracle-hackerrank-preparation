@@ -3,7 +3,7 @@ package org.example.day02.TwoPointersPattern;
 /**
  * @author USER
  **/
-public class Solution3 {
+public class ReverseString {
     public static char[] reverseString(char[] s) {
         int left = 0 ;
         int right = s.length - 1  ;

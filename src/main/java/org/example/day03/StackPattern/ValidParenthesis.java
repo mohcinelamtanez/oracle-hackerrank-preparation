@@ -6,7 +6,7 @@ import java.util.Deque;
 /**
  * @author USER
  **/
-public class Solution1 {
+public class ValidParenthesis {
 
     public static boolean isValid(String s) {
 

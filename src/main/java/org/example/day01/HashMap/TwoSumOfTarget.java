@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * @author USER
  **/
-public class Solution2 {
+public class TwoSumOfTarget {
 
     public static int[] twoSumOfTarget(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();

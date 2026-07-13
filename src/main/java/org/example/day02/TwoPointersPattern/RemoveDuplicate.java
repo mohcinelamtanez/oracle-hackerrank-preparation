@@ -3,7 +3,7 @@ package org.example.day02.TwoPointersPattern;
 /**
  * @author USER
  **/
-public class Solution4 {
+public class RemoveDuplicate {
 
     public static int removeDuplicate(int[] nums) {
         int left = 0;

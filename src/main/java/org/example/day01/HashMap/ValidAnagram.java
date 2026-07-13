@@ -6,8 +6,7 @@ import java.util.HashMap;
  * @author USER
  **/
 
-// string = mohcihne ; string ayoub ;
-public class Solution3 {
+public class ValidAnagram {
     public static Boolean ValidAnagram(String s, String t) {
         HashMap<Character, Integer> map = new HashMap<>();
 

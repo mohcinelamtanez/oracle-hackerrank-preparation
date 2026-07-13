@@ -3,7 +3,7 @@ package org.example.day03.StackPattern;
 /**
  * @author USER
  **/
-public class Solution2 {
+public class MaxSumSubArrayOfSizek {
     public  static int maxSumSubArrayOfSizek( int[] nums , int k ) {
 
         int currentSum =  0 ;
